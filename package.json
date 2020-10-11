@@ -1,0 +1,30 @@
+{
+  "name": "employeemanagementsystem",
+  "version": "1.0.0",
+  "description": "A command-line application that allows the user to:",
+  "main": "npm start",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "console.table": "^0.10.0",
+    "express": "^4.17.1",
+    "inquirer": "^7.3.3",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MClarke9k9/EmployeeManagementSystem.git"
+  },
+  "author": "Mark Clarke",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MClarke9k9/EmployeeManagementSystem/issues"
+  },
+  "homepage": "https://github.com/MClarke9k9/EmployeeManagementSystem#readme"
+}
