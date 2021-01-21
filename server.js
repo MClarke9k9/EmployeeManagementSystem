@@ -5,7 +5,7 @@ const department = require("./lib/department");
 const roles = require("./lib/roles");
 const employee = require("./lib/employee");
 
-const db = require("./db/db");
+const db = require('./db/db');
 
 const test = true;
 
