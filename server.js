@@ -11,7 +11,7 @@ const db = require('./db/db');
 const test = true;
 
 async function init() {
-    if (test) console.log("started init:");
+    if (test) console.log('started init:');
     // will need to wrap this in a loop for n-employees
     try {
         questMenu().then(function(ansOptions) {
