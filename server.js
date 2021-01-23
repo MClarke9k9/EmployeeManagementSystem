@@ -29,7 +29,7 @@ async function init() {
                     employee.genEmpl();
                     break;
                 default:
-                    console.log("Thank you for using Employee Management Tool.");
+                    console.log('Thank you for using Employee Management Tool.');
                     db.close();
                     break;
             }
