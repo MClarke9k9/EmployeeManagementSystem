@@ -6,12 +6,12 @@ const department = require("./lib/department");
 const roles = require("./lib/roles");
 const employee = require("./lib/employee");
 
-const db = require("./db/db");
+const db = require('./db/db');
 
 const test = true;
 
 async function init() {
-    if (test) console.log("started init:");
+    if (test) console.log('started init:');
     // will need to wrap this in a loop for n-employees
     try {
         questMenu().then(function(ansOptions) {
@@ -29,7 +29,7 @@ async function init() {
                     employee.genEmpl();
                     break;
                 default:
-                    console.log("Thank you for using Employee Management Tool.");
+                    console.log('Thank you for using Employee Management Tool.');
                     db.close();
                     break;
             }
